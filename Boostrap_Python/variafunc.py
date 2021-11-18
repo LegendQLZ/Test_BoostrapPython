@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
-fruit = "banana"
-quantity = 3
+fruit = "apples"
+quantity = 5
 pie_crust = "empty"
 isOvenOn = False
 
