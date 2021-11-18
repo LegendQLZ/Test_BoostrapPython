@@ -2,7 +2,7 @@
 fruit = "apples"
 quantity = 3
 pie_crust = "empty"
-isOvenOn = False
+is_oven_on = False
 
 def prepMyFruit(quantity,fruit,pie_crust):
 
@@ -10,5 +10,11 @@ def prepMyFruit(quantity,fruit,pie_crust):
     pie_crust = "filled with delicious apples"
     return(pie_crust)
 
-pie_crust = prepMyFruit(3, "apples", "empty")
+def turn_on_oven(is_oven_on):
+
+    is_oven_on = "True"
+    return(is_oven_on)
+
+pie_crust = prepMyFruit (3, "apple", "empty")
 print("my pie is", pie_crust)
+print("Is the oven turned on ?", turn_on_oven(is_oven_on))
